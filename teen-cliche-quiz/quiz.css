@@ -1,0 +1,53 @@
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  #image {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #ffcc82;
+    background-color: #ff009f;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 2em; 
+  }
+  
+  .question {
+    display: flex;
+    flex-direction: row;
+  }
+    
+  .answer-choice img {
+    height: 10em;
+  }
+  
+  .result-area {
+    background-color: #ff009f;
+    color: #ffcc82;
+  }
+  
+  button {
+    background-color: white;
+    border: none;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.3s;
+  } button:hover {
+    background-color: #bcbaff;
+    color: white
+  } 

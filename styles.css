@@ -1,0 +1,117 @@
+body {
+    background-color: #fffafb;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;;
+   }
+   
+   nav {  
+     overflow: hidden;
+     background-color: #ffcad4;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     display: inline;
+   } nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+   } nav a {
+     float: left;
+     display: block;
+     color: #9d8189;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 1em;
+   } nav a:hover {
+     background: #f4acb7;
+     color: #524447;
+   } .main {
+     margin-top: 47px;
+     padding-bottom: 32px;
+     border-bottom: 15px solid #ffcad4;
+   } .main2 {
+     margin-left: 47px;
+     margin-right: 47px;
+   }
+   
+   .home-title {
+     width: 100vw;
+     height: 75vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     color: white;
+     font-size: 4em;
+     font-family:'Sriracha', cursive;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("clouds.jpg");
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     border-bottom: 15px solid #abacc8;
+   } #home-greeting {
+     color: #a5c9c0;
+     margin-bottom: 0;
+     font-size:2.7em;
+   } hr {
+     background-color: #f4acb7;
+     height: 4px;
+     border-style: none;
+     margin-top: 3px;
+     margin-bottom: 1px;
+   } .home-intro {
+     color: #abacc8;
+     margin-top: 0;
+     font-size:23px;
+     margin-left:25px;
+     margin-right:25px;
+     margin-bottom:.5em;
+   } h5 {
+     color: #a5c9c0;
+     margin-top: .5em;
+     margin-bottom: 0;
+     font-size:2em;
+   } #icebreakers {
+     color: #a5c9c0;
+     font-size:1.5em;
+     margin-top:0px;
+     margin-bottom: .3px;
+   } #icebreakers p {
+     color: #abacc8;
+     margin-top: 0;
+     font-size:.9em;
+     margin-right:25px;
+     margin-bottom:.3px; 
+     margin-left: 10px;
+   }
+   
+   .portfolio-title {
+     width: 100vw;
+     height: 75vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     color: white;
+     font-size: 4em;
+     font-family: 'Sriracha', cursive;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("plant.jpg");
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     border-bottom: 15px solid #a5c9c0;
+   } .projects h3 {
+     color: #abacc8;
+     margin-bottom: 0;
+     font-size: 2em;
+     text-align: center;
+   } .projects p {
+     color: #a5c9c0;
+     margin-top: .3px;
+     font-size: 20px;
+     margin-bottom: 40px;
+     text-align: center;
+   } 
