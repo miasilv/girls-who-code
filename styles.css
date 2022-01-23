@@ -103,15 +103,36 @@ body {
      background-repeat: no-repeat;
      background-attachment: fixed;
      border-bottom: 15px solid #a5c9c0;
-   } .projects h3 {
+   } 
+   .projects h3 {
      color: #abacc8;
      margin-bottom: 0;
      font-size: 2em;
      text-align: center;
-   } .projects p {
+   } 
+   .projects p {
      color: #a5c9c0;
      margin-top: .3px;
      font-size: 20px;
      margin-bottom: 40px;
      text-align: center;
    } 
+   .projects img {
+      width: 80%;
+      margin: 10 px;
+      display: block;
+   }
+
+   .projects img:hover {
+      opacity: .5;
+   }
+
+   .projects a:link a:visited {
+     color: #a5c9c0;
+     text-decoration: none;
+   }
+
+   .projects a:hover a:active {
+      color: #93b3ab;
+      text-decoration: underline;
+   }
